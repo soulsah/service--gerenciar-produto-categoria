@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: produto-db
+    environment:
+      - POSTGRES_DB=produto
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - 5433:5432
+
+  app:
+    depends_on:
+      - postgres
+    build: .
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/produto
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    ports:
+      - "8082:8082"
+    networks:
+      - my-networks
+
+networks:
+  my-networks:
+    driver: bridge
