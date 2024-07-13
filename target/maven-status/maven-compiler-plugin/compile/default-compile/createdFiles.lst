@@ -1,0 +1,11 @@
+br/com/fiap/postech/soat/techchallenger4/produtos/mapper/ProdutoMapper.class
+br/com/fiap/postech/soat/techchallenger4/produtos/service/ProdutoService.class
+br/com/fiap/postech/soat/techchallenger4/produtos/enums/Categoria.class
+br/com/fiap/postech/soat/techchallenger4/produtos/controller/ProdutoController.class
+br/com/fiap/postech/soat/techchallenger4/produtos/records/ProdutoRecord.class
+br/com/fiap/postech/soat/techchallenger4/produtos/exception/CustomExceptionHandler.class
+br/com/fiap/postech/soat/techchallenger4/produtos/Techchallenger4Application.class
+br/com/fiap/postech/soat/techchallenger4/produtos/service/impl/ProdutoServiceImpl.class
+br/com/fiap/postech/soat/techchallenger4/produtos/exception/ProdutoNotFoundException.class
+br/com/fiap/postech/soat/techchallenger4/produtos/entity/Produto.class
+br/com/fiap/postech/soat/techchallenger4/produtos/repository/ProdutoRepository.class

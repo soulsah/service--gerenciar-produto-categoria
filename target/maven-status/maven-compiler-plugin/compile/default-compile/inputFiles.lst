@@ -1,0 +1,11 @@
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/Techchallenger4Application.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/controller/ProdutoController.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/entity/Produto.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/enums/Categoria.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/exception/CustomExceptionHandler.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/exception/ProdutoNotFoundException.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/mapper/ProdutoMapper.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/records/ProdutoRecord.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/repository/ProdutoRepository.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/service/ProdutoService.java
+/home/qrd/Danilo/service--gerenciar-produto-categoria/src/main/java/br/com/fiap/postech/soat/techchallenger4/produtos/service/impl/ProdutoServiceImpl.java
