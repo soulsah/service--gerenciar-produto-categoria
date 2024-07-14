@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotEmpty;
 
 @Valid
 public record ProdutoRecord(Long id, @NotEmpty(message = "Nome não pode estar vazio")String nome,
-                            @NotEmpty(message = "Categoria não pode estar vazia") Categoria categoria,
+                            Categoria categoria,
                             @NotEmpty(message = "Preço não pode estar vazio") double preco,
                             @NotEmpty(message = "Descrição não pode estar vazia") String descricao,
                             String imagem) {

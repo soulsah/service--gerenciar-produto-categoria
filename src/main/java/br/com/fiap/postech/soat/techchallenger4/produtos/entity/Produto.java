@@ -21,10 +21,8 @@ public class Produto {
     @NotEmpty(message = "Nome não pode estar vazio")
     private String nome;
 
-    @NotEmpty(message = "Categoria não pode estar vazia")
     private Categoria categoria;
 
-    @NotEmpty(message = "Preço não pode estar vazio")
     private double preco;
 
     @NotEmpty(message = "Descrição não pode estar vazia")
